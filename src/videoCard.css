@@ -1,0 +1,21 @@
+.thumbnail{
+    width: 270px;
+}
+
+.videoCard{
+    margin-top: 10px;
+    width: 300px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__info{
+    display: flex;
+    margin: 12px;
+}
+
+.items{
+    margin-left: 10px;
+}
