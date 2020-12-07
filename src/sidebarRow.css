@@ -1,0 +1,23 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebarRow__icon{
+    color: red;
+}
+
+.sidebarRow__text{
+    margin-left: 20px;
+}
+
+.sidebarRow:hover > .sidebarRow__text{
+    font-weight: 600;
+}
+
