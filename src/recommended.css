@@ -1,7 +1,8 @@
 .recommended{
     flex: 0.8;
     background: #fafafa;
-    padding: 20px;
+    /* position: inherit; */
+    padding-left: 150px;
 
 }
 
@@ -9,4 +10,11 @@
 .arrange{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommended >h4{
+    padding: 10px;
+    margin-left: 40px;
+    font-weight: 600;
 }

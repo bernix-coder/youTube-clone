@@ -9,15 +9,28 @@
     cursor: pointer;
 }
 
-.sidebarRow:hover > .sidebarRow__icon{
-    color: red;
+.sidebarRow > .sidebarRow__icon{
+    color: rgb(107, 97, 97);
 }
+
+/* .sidebarRow:hover > .sidebarRow__icon{
+    color: red;
+} */
 
 .sidebarRow__text{
     margin-left: 20px;
 }
 
-.sidebarRow:hover > .sidebarRow__text{
-    font-weight: 600;
+.selected{
+    background-color: gray;
+
+}
+.selected:hover{
+    background-color: gray;
+
+}
+
+.selected>.sidebarRow__icon{
+    color: red;
 }
 

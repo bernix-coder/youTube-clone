@@ -9,8 +9,12 @@ function App() {
     <div className="app">
       <Header />
       <div className='app__page'>
-        <Sidebar />
-        <RecommendedVideos />
+        <div className='sideStyle'>
+          <Sidebar />
+        </div>
+        <div>
+          <RecommendedVideos />
+        </div>
       </div>
     </div>
   );
